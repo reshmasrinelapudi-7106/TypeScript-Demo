@@ -1,0 +1,10 @@
+﻿var num = 28;
+var sum = 0;
+for (var i = 1; i < num; i++) {
+    if (num % i == 0)
+        sum += i;
+}
+if (sum == num)
+    console.log("Perfect Number");
+else
+    console.log("Not Perfect");
